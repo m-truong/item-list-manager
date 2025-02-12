@@ -20,9 +20,16 @@ function App() {
     console.log('here', e);
     e.preventDefault();
 
+    // add console.log ofthe react useState hook
+    console.log('here is the input' , input);
+
     // edge-case for if input state contains an empty string"""
     if (input.trim() !== "") {
       // IF-AFTER trimming, and it's still an empty-string"" then it won't enter the if-block."
+      console.log('here is the input 2x' , input);
+      // use the spread operator to spread the input-state
+      // and then include the new input ("remember the curry")
+      setItems([...items, input]);
     }
   };
 
