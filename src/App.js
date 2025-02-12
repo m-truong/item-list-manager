@@ -31,6 +31,9 @@ function App() {
       // and then include the new input ("remember the curry")
       setItems([...items, input]);
     }
+
+    // then clear the internal input text-string state
+    setInput("");
   };
 
   return (
