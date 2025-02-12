@@ -16,6 +16,7 @@ function App() {
       <h8k-navbar header="Item List Manager"></h8k-navbar>
       <div className="App">
         <h3>Item List</h3>
+        <h3>Item List</h3>
         <input
           type="text"
           value={input}
